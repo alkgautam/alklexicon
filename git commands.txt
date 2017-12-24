@@ -1,0 +1,13 @@
+git init //start git
+git config --global user.email #mailId //mail id
+git config --global user.name #git_User_Name //username
+git remote add origin #https://github.com/xyz/abc.git //add new git repo
+git clone #https://github.com/xyz/abc.git //clone existing repo
+git branch //check branches master or develop or something else
+git checkout #folder //go to desired branch
+git pull --all //pull repo
+git add -A //add files
+git commit -m '#Any_msg' //save added files
+git pull origin master //pull repo
+git push origin master //push repo
+git status //check status of repo
